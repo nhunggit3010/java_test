@@ -74,7 +74,7 @@ public class LoginService {
                         return user;
 
 //
-//                    return user;
+//
                     }
 
                 }
@@ -85,53 +85,5 @@ public class LoginService {
     }
 }
 
-//        }
-//
-//            if (user != null) {
-//                System.out.println("Chào mừng " + username + ", bạn có thể thực hiện các công việc sau:");
-//                System.out.println("1. Thay đổi username");
-//                System.out.println("2. Thay đổi email");
-//                System.out.println("3. Thay đổi mật khẩu");
-//                System.out.println("4. Đăng xuất");
-//                System.out.println("0. Thoát chương trình");
-//                int choice = scanner.nextInt();
-//
-//                while (choice != 0) {
-//                    switch (choice) {
-//                        case 1:
-//                            System.out.println("Nhập username mới: ");
-//                            String newUsername = scanner.next();
-//                            user.setUsername(newUsername);
-//                            break;
-//                        case 2:
-//                            System.out.println("Nhập email mới: ");
-//                            String newEmail = scanner.next();
-//                            user.setEmail(newEmail);
-//                            break;
-//                        case 3:
-//                            System.out.println("Nhập mật khẩu mới: ");
-//                            String newPassword = scanner.next();
-//                            user.setPassword(newPassword);
-//                            break;
-//                        case 4:
-//                            System.out.println("Đăng xuất thành công.");
-//                            break;
-//                        default:
-//                            System.out.println("Chọn không hợp lệ. Vui lòng nhập lại.");
-//                    }
-//
-//                    System.out.println("1. Thay đổi username");
-//                    System.out.println("2. Thay đổi email");
-//                    System.out.println("3. Thay đổi mật khẩu");
-//                    System.out.println("4. Đăng xuất");
-//                    System.out.println("0. Thoát chương trình");
-//
-//                    choice = scanner.nextInt();
-//                }
-//            } else {
-//                System.out.println("Username hoặc mật khẩu không đúng.");
-//            }
-//        } while (user == null);
-//
-//        return user;
+
 
